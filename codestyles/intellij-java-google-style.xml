@@ -66,7 +66,6 @@
   </JSCodeStyleSettings>
   <Python>
     <option name="USE_CONTINUATION_INDENT_FOR_ARGUMENTS" value="true" />
-    <!--- Added for Jornaya --->
     <option name="DICT_WRAPPING" value="5" />
     <option name="DICT_NEW_LINE_AFTER_LEFT_BRACE" value="true" />
     <option name="DICT_NEW_LINE_BEFORE_RIGHT_BRACE" value="true" />
@@ -74,7 +73,6 @@
     <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
   </Python>
   <PHPCodeStyleSettings>
-    <!--- Added for Jornaya --->
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
@@ -205,7 +203,6 @@
     <option name="RIGHT_MARGIN" value="80" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
-    <!--Added for Jornaya--->
     <option name="WRAP_LONG_LINES" value="true" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
@@ -214,7 +211,6 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
-    <!--Added for Jornaya--->
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
     <option name="METHOD_BRACE_STYLE" value="1" />
