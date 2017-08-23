@@ -1,0 +1,26 @@
+# This is Git's per-user configuration file.
+[color]
+    ui = auto
+[color "branch"]
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
+[color "status"]
+    added = green bold
+    changed = yellow bold
+    untracked = red bold
+[commit]
+    template = ~/.gitmessage
+[alias]
+    # Print a list of all current git aliases
+    alias = config --get-regexp '^alias\\.'
+    # Show the current status of all branches in a git log graph
+    lga = log --graph --oneline --all --decorate
+    # Show the current status of all branches in a git log graph with commits that just match the search parameter
+    lgas = "!sh -c \"git log --grep=$1 --graph --oneline --all --decorate\" -"
+    # Perform a log with a search variable
+    search = "!sh -c \"git log --grep=$1\" -"
+    # Fetch develop and perform an interactive rebase
+    rbid = "!sh -c \"git fetch origin develop && git rebase -i develop\""
+    # Fetch develop and perform a rebase
+    rbd = "!sh -c \"git fetch origin develop && git rebase develop\""
