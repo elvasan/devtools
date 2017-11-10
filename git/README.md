@@ -2,6 +2,14 @@
 
 In this folder are any files that can be used to set up some useful git commands or set up git in such a way to facilitate development here at Jornaya.
 
+## Git Prompt
+
+The Git Bash Prompt is a handy way to identify the state of your repository,
+including the current branch name, state of your working and staging areas, and
+stash.
+
+https://github.com/magicmonty/bash-git-prompt
+
 ## Git Config
 
 To set up the recommended git config if you have not previously set up a git config, simply copy the `.gitconfig` file into your home directory (`~/`)
